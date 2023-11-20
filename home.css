@@ -1,0 +1,101 @@
+.homebody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/pexels-george-desipris-726478.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#preloaderhome{
+    background: #000 url(img/FreeFrontend.gif) no-repeat center center ;
+    background-size: 35%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url(img/shark1.jpeg);
+}
+
+.card2{
+    background-image: url(img/shark2.jpeg);
+}
+
+.card3{
+    background-image: url(img/shark3.jpeg);
+}
+
+.card4{
+    background-image: url(img/shark4.jpeg);
+}
+
+.card5{
+    background-image: url(img/greatwhite1.jpeg);
+}
+
+.card6{
+    background-image: url(img/greatwhite3.jpeg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8;
+}

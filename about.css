@@ -1,0 +1,9 @@
+.aboutbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
